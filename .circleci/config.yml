@@ -429,7 +429,6 @@ jobs:
   httplib:
     docker:
       - *test_runner
-      - *httpbin_local
     steps:
       - checkout
       - restore_cache:
